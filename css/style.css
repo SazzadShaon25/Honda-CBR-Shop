@@ -14,6 +14,11 @@ body{
 }
 .custom-button{
     background: #E76F51;
+    font-weight: 800;
+    
+}
+.login-button{
+    background: #E76F51;
 
 }
 
@@ -22,7 +27,7 @@ body{
     filter: grayscale(100);
 }
 
-
+/* rating star styles */
 .filled-star{
     color: #E77C40;
 }
