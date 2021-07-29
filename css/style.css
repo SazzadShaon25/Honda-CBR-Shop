@@ -7,11 +7,25 @@ body{
     padding: 0%;
     overflow-x: hidden !important;
 }
-/* main area styles */
+/* ---------
+main area styles
+-------------------- */
+
+/* nav-logo styles */
 .logo-title{
-    font-weight: 600;
+    font-weight: 800;
     font-size: 38px;
 }
+.cover-details{
+    text-align: justify;
+}
+.cover-title{
+        font-weight: 600;
+     font-size: 44px;
+    line-height: 72px;
+    color: #FFFFFF;
+}
+
 .custom-button{
     background: #E76F51;
     font-weight: 800;
@@ -22,12 +36,24 @@ body{
 
 }
 
+.section-title{
+    font-size: 38px;
+    font-weight: 800;
+}
+
 /* images gray scale */
 .bike-gray-color img{
     filter: grayscale(100);
+   
+}
+.features-bike img{
+    margin-left: 15%;
 }
 
 /* rating star styles */
 .filled-star{
     color: #E77C40;
+}
+.feedback-info{
+    font-weight: 800;
 }
