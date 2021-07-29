@@ -1,27 +1,28 @@
 /* google font addeed */
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0%;
     padding: 0%;
     overflow-x: hidden !important;
 }
+/* main area styles */
+.logo-title{
+    font-weight: 600;
+    font-size: 38px;
+}
 .custom-button{
     background: #E76F51;
 
 }
-.gray-row{
-    margin-right: 25%;
-    margin-left: 25%;
-}
+
+/* images gray scale */
 .bike-gray-color img{
     filter: grayscale(100);
 }
 
-.cover-title{
-    font-weight: 600;
-    font-size: 48px;
-}
+
 .filled-star{
     color: #E77C40;
 }
